@@ -1,0 +1,8 @@
+{
+  "name": "Enquetes",
+  "description": "Enquetes for vtuber.",
+  "repository": "https://github.com/Asazuke11/express-study",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}

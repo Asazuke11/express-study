@@ -1,0 +1,46 @@
+extends layout
+
+block content
+    .background
+      #kumo.swing 　
+      #kazari 　
+      #kabocha2 　
+      #ame1.swing 　
+      #ame2.fuwafuwa 　
+      #ame3.swing 
+      #obake.fuwafuwa 　
+      #obake2.fuwafuwa 　
+      #hallo 　
+      #vote 　
+      #frame1 　
+      .tit 　
+      .tit2 #{Question}
+      form(method="post" action="/enquetes/vtuber")
+        .card
+          #ori.image-box
+          .line
+          .desc-box
+            input(type="radio" name="d_dragon" value=firstItem)
+
+        .card
+          #yoshi.image-box
+          .line
+          .desc-box
+            input(type="radio" name="sifue" value=secondItem)
+        br
+        .submit_btn.fuwafuwa
+          input(type="image" src="/images/bat.png" name="vote")
+      p
+        br
+        | カスタムキャスト
+        br
+        | ©DWANGO Co., Ltd. / S-court, Co., Ltd. All rights reserved.
+        br
+        | 
+        br
+        | 「EVENTs Design」 http://event-pre.com/
+        br
+        | ©Copyright TopeconHeroes all right reserved.
+      #ribon 　
+
+
